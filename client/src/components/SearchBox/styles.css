@@ -1,0 +1,38 @@
+.searchWrapper {
+  margin: auto;
+}
+
+.searchContainer {
+  height: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-flow: row nowrap;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.searchIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.searchIcon {
+  font-size: 1.5rem;
+}
+
+.searchInput {
+  height: 25px;
+  border: none !important;
+  border-color: transparent !important;
+  width: 80%;
+}
+
+.searchInput:focus {
+  outline: none;
+}
